@@ -176,8 +176,9 @@ nav button {
 }
 
 .forthSection {
-  text-align: center;
+  text-align: center;   
   padding: 50px 0;
+  background-color:white;
 }
 
 .forthSection h2 {
@@ -191,4 +192,10 @@ nav button {
 .forthSection img {
   width: 650px;
   margin-top: 25px;
+}
+
+.fivesection {
+  padding: 100px;
+  background-color:  #edf6ff
+  
 }
