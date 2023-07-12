@@ -199,3 +199,24 @@ nav button {
   background-color:  #edf6ff
   
 }
+
+.sixSection {
+  text-align: center;
+  padding: 75px;
+}
+
+.sixSection h2 {
+  margin-bottom: 15px;
+}
+
+.sixSection p {
+  padding: 0 200px;
+  color: #525252;
+}
+
+.sixSectionCol {
+  width: 475px;
+  margin-top: 50px;
+  padding: 20px 50px 100px 100px;
+  background-color: #edf6ff;
+}
