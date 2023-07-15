@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
 /* global css */
 * {
   margin: 0;
@@ -6,11 +7,7 @@
   font-family: poppins;
 }
 
-button {
-cursor: pointer !important
-
-
-}
+/* header */
 header {
   background-color: #4eadff;
 }
@@ -86,6 +83,7 @@ nav button {
   margin: 150px 0;
 }
 
+/*  section 2 */
 .howitworks {
   padding: 100px 0;
 }
@@ -132,7 +130,7 @@ nav button {
   color: #525252;
 }
 
-/* Third Section */
+/* Section 3 */
 .thirdSection {
   background-color: #edf6ff;
   height: 350px;
@@ -149,6 +147,7 @@ nav button {
   align-items: center;
   justify-content: space-between;
 }
+
 .buttonsContainer button {
   cursor: pointer;
   width: 20%;
@@ -161,7 +160,7 @@ nav button {
 .blue {
   background-color: #1e87e3 !important;
   color: #f5f5f5;
-  
+
 }
 
 .home-left-1 {
@@ -182,10 +181,11 @@ nav button {
   margin-top: 25px;
 }
 
+/* section 4 */
 .forthSection {
-  text-align: center;   
+  text-align: center;
   padding: 50px 0;
-  background-color:white;
+  background-color: white;
 }
 
 .forthSection h2 {
@@ -201,12 +201,13 @@ nav button {
   margin-top: 25px;
 }
 
+/* section 5 */
 .fivesection {
   padding: 100px;
-  background-color:  #edf6ff
-  
+  background-color: #edf6ff
 }
 
+/* section 6 */
 .sixSection {
   text-align: center;
   padding: 75px;
@@ -226,8 +227,62 @@ nav button {
   margin-top: 50px;
   padding: 20px 50px 100px 100px;
   background-color: #edf6ff;
-  text-align:left ;
+  text-align: left;
 }
+
+/* section 7 */
+
+.sevenSection {
+  color: white;
+  text-align: center;
+  padding: 75px;
+  background-color: #2382d5;
+}
+
+.sevenSection p {
+  padding: 20px 150px;
+}
+
+.sevenSection button {
+  padding: 15px 25px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+/* section 8 */
+
+.eightSection {
+  background-color: #090a1c;
+  color: white;
+  text-align: center;
+  padding: 100px 100px 100px 200px;
+}
+
+.eightSection h4 {
+  margin-bottom: 30px;
+  text-align: left;
+
+}
+
+.eightSection p {
+  text-align: left;
+}
+.aboutP {
+  margin-bottom: 30px;
+}
+
+.eightSection input {
+  padding: 10px 100px;
+  margin-top: 20px;
+}
+
+.icone {
+  text-align: left;
+  margin-top: 10px;
+}
+
 
 @media only screen and (max-width: 768px) {
   .howitworks .sectionSubtitle {
@@ -239,4 +294,6 @@ nav button {
   .iconBox {
     margin-bottom: 25px;
   }
+
+  
 }
